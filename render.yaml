@@ -1,0 +1,42 @@
+services:
+  - type: web
+    name: webnotes-blog
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
+    headers:
+      - path: /*
+        name: Content-Type
+        value: text/html
+      - path: /*.css
+        name: Content-Type
+        value: text/css
+      - path: /*.js
+        name: Content-Type
+        value: application/javascript
+      - path: /*.png
+        name: Content-Type
+        value: image/png
+      - path: /*.jpg
+        name: Content-Type
+        value: image/jpeg
+```
+
+**Step 3: Commit and push to GitHub**
+
+**Step 4: Render will auto-deploy with the new config**
+
+---
+
+## 🔄 Alternative Quick Fix (If Above Doesn't Work):
+
+Change your file structure slightly:
+
+**Create a `public` folder in your GitHub repo and move everything there:**
+```
+WebNotes.blog/
+└── public/
+    ├── index.html
+    ├── styles.css
+    ├── script.js
+    └── web-evolution-comparison.png
