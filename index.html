@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Evolution of the Internet — From Web 1.0 to Web 3.0</title>
+  <meta name="description"
+    content="An interactive deep-dive exploring the transformative journey from Web 1.0's static pages through Web 2.0's social revolution to Web 3.0's decentralized future." />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Decorative background inside body -->
+  <div class="decor-bg" aria-hidden="true"></div>
+  <div class="progress"><span class="bar" aria-hidden="true"></span></div>
+
+  <header class="blog-header" role="banner">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="Go to top">WebNotes<span>.blog</span></a>
+      <nav class="topnav" aria-label="Primary navigation">
+        <a href="#intro" class="nav">Intro</a>
+        <a href="#web1" class="nav">Web 1.0</a>
+        <a href="#web2" class="nav">Web 2.0</a>
+        <a href="#web3" class="nav">Web 3.0</a>
+        <a href="#impact" class="nav">Impact</a>
+        <a href="#references" class="nav">References</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="post wrap prose">
+    <article class="entry" aria-labelledby="post-title">
+      <header class="entry-header">
+        <h1 id="post-title">The Evolution of the Internet — From Web 1.0 to Web 3.0</h1>
+        <p class="meta">by Farhan Adib • ~1,200 words • 7 min read • December 2025</p>
+        <div class="topic-tags" aria-label="Article topics">
+          <span class="tag">Technology</span>
+          <span class="tag">Internet History</span>
+          <span class="tag">Web Evolution</span>
+        </div>
+      </header>
+
+      <section id="intro" class="section" aria-labelledby="intro-title">
+        <h2 id="intro-title">The Digital Deep-Dive</h2>
+        <p class="lede">The Internet has undergone a profound metamorphosis over the past three decades—evolving from a
+          static library of interconnected documents to a dynamic, user-driven social ecosystem, and now emerging as a
+          decentralized network that fundamentally reimagines ownership, privacy, and digital autonomy.</p>
+
+        <p>Every evolutionary stage reflects a fundamental change in how people engage with information, add value, and
+          exercise agency online in addition to technological innovation. The "read-only" paradigm, in which information
+          moved unidirectionally from publishers to passive users, was created by Web 1.0. Web 2.0  transformed this
+          paradigm by creating the "read-write" web, which made content creation more accessible and gave rise to social
+          media behemoths like Facebook, YouTube, and Twitter. These days, Web 3.0 promises a "read-write-own" internet
+          driven by blockchain technology, AI, and cryptographic protocols that give people back control over their
+          data.</p>
+
+        <p>Understanding this progression illuminates far more than technical innovation—it reveals how human
+          communication, creativity, privacy, and economic participation have adapted to digital life. As ColdFusion's
+          comprehensive documentary "History of the Internet" (2023) demonstrates through rich historical footage and
+          expert interviews, each web era emerged from both technological possibility and societal necessity. This
+          article explores that transformative journey, examines the profound social implications of each phase, and
+          considers what lies beyond our current conception of the web.</p>
+      </section>
+
+      <!-- Web Evolution Comparison -->
+      <figure class="image-content" style="margin: 4rem 0;">
+        <img src="web-evolution-comparison.png"
+          alt="Visual comparison showing the evolution from Web 1.0 to Web 2.0 to Web 3.0 with interconnected network visualizations"
+          loading="lazy" />
+        <figcaption>
+          The Evolution Journey: From Web 1.0's static pages through Web 2.0's social connectivity to Web 3.0's decentralized future
+        </figcaption>
+      </figure>
+
+      <section id="web1" class="section" aria-labelledby="web1-title">
+        <h2 id="web1-title">Web 1.0 — The Static, Read-Only Web (1991-2004)</h2>
+
+        <div class="era-highlight">
+          <div class="era-badge">1991-2004</div>
+          <p><strong>Core Principle:</strong> Information consumption • <strong>User Role:</strong> Passive reader •
+            <strong>Content Control:</strong> Centralized publishers
+          </p>
+        </div>
+
+        <p>Web 1.0, spanning from Tim Berners-Lee's invention of the World Wide Web in 1991 through the early 2000s, was
+          fundamentally characterized by its one-way information flow. Websites functioned as digital
+          brochures—meticulously hand-coded in basic HTML and accessed through painfully slow dial-up connections that
+          made even a simple page load feel like an achievement. The average website was essentially an online
+          billboard: static, informational, and utterly devoid of user interaction beyond clicking hyperlinks.</p>
+
+        <figure class="image-content">
+          <img src="https://web.archive.org/web/19961112181513im_/http://www2.yahoo.com/images/yahoo.gif"
+            alt="Original Yahoo! homepage from 1996 showing typical Web 1.0 design with simple text links and basic layout"
+            loading="lazy" style="background: #fff; padding: 20px;" />
+          <figcaption>
+            Yahoo! homepage (1996) - A quintessential example of Web 1.0 design with directory-style navigation and
+            minimal graphics.
+            Source: <a href="https://web.archive.org/web/19961112181513/http://www.yahoo.com/" target="_blank"
+              rel="noopener">Internet Archive / Wayback Machine</a>
+          </figcaption>
+        </figure>
+
+        <p>The technical architecture reflected the simplicity. HTML was used to format documents, CSS was limited, and
+          JavaScript was a new concept. Content was mostly created by institutions, universities, technology businesses,
+          and early enthusiasts with HTML expertise and access to web servers. To publish online, one needed to grasp
+          markup languages, manage FTP transfers, and generally pay for hosting services, creating a considerable
+          entrance barrier.</p>
+
+        <p>Yet this era established the foundational protocols that persist today. The concept of universal resource
+          locators (URLs) created a standardized addressing system for the world's information. HTTP provided a
+          stateless protocol for transferring hypertext. HTML gave structure to documents in a platform-independent way.
+          Search engines like Yahoo! (initially a human-curated directory) and later AltaVista attempted to organize
+          this rapidly expanding information landscape, though their capabilities were primitive compared to modern
+          standards.</p>
+
+        <p>Historians typically describe Web 1.0 as a "information desert"—rich in data but devoid of discourse,
+          containing facts but no conversation. Users can consume but not contribute, read but not write, and browse
+          without building. Despite this disadvantage, there were some advantages: websites loaded rapidly with minimal
+          overhead, privacy issues were minimal owing to lack of tracking tools, and the decentralized hosting approach
+          ensured no single entity controlled the flow of information.</p>
+
+        <div class="stats-box" role="complementary">
+          <h3 class="h5">Web 1.0 by the Numbers</h3>
+          <ul class="stat-list">
+            <li><strong>1991:</strong> First website created by Tim Berners-Lee at CERN</li>
+            <li><strong>1995:</strong> ~16 million internet users globally (0.4% of world population)</li>
+            <li><strong>2000:</strong> ~361 million internet users (5.8% of world population)</li>
+            <li><strong>Average connection:</strong> 56k dial-up (0.056 Mbps)</li>
+          </ul>
+          <p class="fine">Source: Internet World Stats, International Telecommunication Union</p>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Web 1.0 advantages and limitations">
+          <button class="tab-btn is-active" role="tab" aria-selected="true" aria-controls="w1-pros"
+            id="tab-w1-pros">Advantages</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="w1-cons"
+            id="tab-w1-cons">Limitations</button>
+        </div>
+        <div class="tab-panels">
+          <div id="w1-pros" class="tab-panel is-active" role="tabpanel" aria-labelledby="tab-w1-pros">
+            <ul>
+              <li><strong>Simplicity and speed:</strong> Minimal overhead meant pages loaded quickly even on slow
+                connections</li>
+              <li><strong>Open standards:</strong> HTML, HTTP, and URLs created an accessible, platform-independent
+                foundation</li>
+              <li><strong>Decentralized hosting:</strong> No single entity controlled the web—anyone could host content
+              </li>
+              <li><strong>Clear information architecture:</strong> Hyperlink structure encouraged exploration and
+                discovery</li>
+              <li><strong>Privacy by default:</strong> Limited tracking or data collection capabilities</li>
+            </ul>
+          </div>
+          <div id="w1-cons" class="tab-panel" role="tabpanel" aria-labelledby="tab-w1-cons">
+            <ul>
+              <li><strong>One-way communication:</strong> Users could only consume content, not contribute or interact
+              </li>
+              <li><strong>High barrier to entry:</strong> Creating content required technical skills (HTML, FTP,
+                hosting)</li>
+              <li><strong>Limited multimedia:</strong> Bandwidth constraints restricted use of images, audio, and video
+              </li>
+              <li><strong>Poor discoverability:</strong> Early search engines provided rudimentary results</li>
+              <li><strong>Static content:</strong> Updating websites required manual code changes</li>
+              <li><strong>Minimal accessibility:</strong> Few standards or considerations for users with disabilities
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="web2" class="section" aria-labelledby="web2-title">
+        <h2 id="web2-title">Web 2.0 — The Participatory and Social Web (2004-Present)</h2>
+
+        <div class="era-highlight">
+          <div class="era-badge">2004-Present</div>
+          <p><strong>Core Principle:</strong> User participation • <strong>User Role:</strong> Content creator •
+            <strong>Content Control:</strong> Platform intermediaries
+          </p>
+        </div>
+
+        <p>The year 2004 marked an inflection point in internet history. Tim O'Reilly coined the term "Web 2.0" to
+          describe an emerging paradigm where users transitioned from passive consumers to active participants. This
+          wasn't merely a technical upgrade—it represented a fundamental reconceptualization of the internet as a
+          platform for collective intelligence and social interaction. Technical innovations like AJAX (Asynchronous
+          JavaScript and XML) enabled websites to update content dynamically without full page refreshes, creating the
+          fluid, responsive experiences we now take for granted.</p>
+
+        <p>The rise of blogs, wikipedias, and social networks democratized content creation in unprecedented ways.
+          Platforms
+          like WordPress and Blogger eliminated technical barriers, allowing anyone with an internet connection to
+          publish their thoughts. Wikipedia proved that collective knowledge creation could rival professionally edited
+          encyclopedias. YouTube demonstrated that video content didn't require television studios or broadcasting
+          licenses. Facebook and Twitter transformed how we share experiences, forming digital town squares where
+          billions gather daily.</p>
+
+        <figure class="image-content">
+          <img src="https://live.staticflickr.com/1/2019/buddyicons/35591378@N03_r.jpg?1390177385#2019-1-1_r"
+            alt="Flickr logo representing the Web 2.0 era of photo sharing and social media"
+            loading="lazy" style="background: #0063dc; padding: 40px; border-radius: 8px;" />
+          <figcaption>
+            Flickr pioneered Web 2.0's social photo-sharing revolution, demonstrating user-generated content at scale.
+            Image: <a href="https://www.flickr.org" target="_blank" rel="noopener">Flickr Foundation</a>
+          </figcaption>
+        </figure>
+
+        <p>However, this democratization came at a considerable cost. Google, Facebook (Meta), Amazon, Apple, and
+          Microsoft dominated the internet by monetizing user-generated content and personal data. The economic model
+          has changed from subscription-based services to advertising-driven "free" platforms. Users were not customers;
+          they became the product. Data collected from clicks, likes, shares, and scrolls is used to create complex
+          behavioral profiles.</p>
+
+        <p>The resulting "attention economy" optimized for engagement over truth, addiction over utility. Algorithmic
+          feeds prioritized content that provoked emotional reactions—outrage, fear, tribal solidarity—because such
+          content kept users scrolling. Social media platforms became vectors for misinformation, political
+          polarization, and mental health challenges, particularly among younger users. The promise of connection often
+          delivered isolation; the hope for democracy sometimes yielded mob rule.</p>
+
+        <p>Yet Web 2.0's contributions remain transformative. APIs (Application Programming Interfaces) fostered an
+          ecosystem of interconnected services—developers could combine Google Maps with restaurant listings and user
+          reviews, creating mashups that exceeded what any single company could build. Cloud computing democratized
+          access to powerful servers. Mobile apps extended the internet's reach, putting powerful computing in billions
+          of pockets. The participatory culture sparked by Web 2.0 enabled social movements, grassroots organizing, and
+          unprecedented information sharing during crises.</p>
+
+        <div class="interactive-comparison">
+          <h3 class="h5">Explore Web 2.0 Characteristics</h3>
+          <div class="comparison-grid">
+            <button class="compare-btn" data-feature="ugc">User Content</button>
+            <button class="compare-btn" data-feature="api">APIs & Mashups</button>
+            <button class="compare-btn" data-feature="social">Social Networks</button>
+            <button class="compare-btn" data-feature="attention">Attention Economy</button>
+          </div>
+          <div id="feature-display" class="feature-panel" role="region" aria-live="polite">
+            <p class="prompt-text">Select a characteristic above to explore Web 2.0's defining features</p>
+          </div>
+        </div>
+
+        <div class="accordion" role="region" aria-label="Deep dive into Web 2.0 patterns">
+          <button class="acc-btn" aria-expanded="false">User-Generated Content Revolution</button>
+          <div class="acc-panel" role="region">
+            <p>From Wikipedia's collaborative knowledge base to YouTube's billion-plus creators, users became the
+              primary content producers. This shift generated network effects—each additional user made platforms more
+              valuable, creating winner-take-all dynamics that concentrated power in a few dominant platforms. The "long
+              tail" phenomenon emerged: niche content found audiences impossible in broadcast media. Amateur creators
+              built professional careers through platforms like YouTube, Instagram, and TikTok.</p>
+          </div>
+
+          <button class="acc-btn" aria-expanded="false">APIs & the Programmable Web</button>
+          <div class="acc-panel" role="region">
+            <p>Open APIs transformed the web into a platform for innovation. Developers combined services—Google Maps +
+              Craigslist listings = Padmapper; Twitter API + data analysis = social listening tools. This openness
+              accelerated innovation cycles and created new business models. However, as platforms matured, many
+              restricted API access to control their ecosystems, closing the "open" web they helped create.</p>
+          </div>
+
+          <button class="acc-btn" aria-expanded="false">The Attention Economy & Algorithmic Feeds</button>
+          <div class="acc-panel" role="region">
+            <p>When products become free, attention becomes the commodity. Platforms optimized for "engagement"—a
+              euphemism for time spent and ads viewed. Algorithms learned to serve content that triggered dopamine
+              responses: novelty, social validation, moral outrage. This optimization raised profound concerns about
+              mental health, political polarization, and the quality of public discourse. The "attention economy" debate
+              continues: are these platforms neutral utilities or actively harmful to individual and social wellbeing?
+            </p>
+          </div>
+
+          <button class="acc-btn" aria-expanded="false">The Privacy Crisis</button>
+          <div class="acc-panel" role="region">
+            <p>Web 2.0's business model required unprecedented data collection. Companies tracked browsing history,
+              location, social connections, and behavioral patterns to build detailed user profiles. The Cambridge
+              Analytica scandal (2018) revealed how this data could be weaponized for political manipulation. GDPR
+              (2018) and similar regulations emerged as governments attempted to reign in data practices, but the
+              fundamental tension remained: "free" services required surveillance capitalism.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="web3" class="section" aria-labelledby="web3-title">
+        <h2 id="web3-title">Web 3.0 — The Decentralized, Intelligent, and "Ownable" Web (Emerging)</h2>
+
+        <div class="era-highlight">
+          <div class="era-badge">2014-Present</div>
+          <p><strong>Core Principle:</strong> User ownership • <strong>User Role:</strong> Stakeholder • <strong>Content
+              Control:</strong> Decentralized protocols</p>
+        </div>
+
+        <p>Web 3.0 emerges from frustration with Web 2.0's centralized power structures and surveillance business
+          models. Built on blockchain technology, cryptographic protocols, and distributed systems, it envisions an
+          internet where users own their data, digital assets, and online identities. Instead of trusting corporations
+          to safeguard personal information, individuals manage it through encrypted wallets and distributed ledgers
+          verified by network consensus rather than central authorities.</p>
+
+        <figure class="image-content">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Decentralization_diagram.svg/1200px-Decentralization_diagram.svg.png"
+            alt="Diagram showing decentralized network architecture compared to centralized and distributed systems"
+            loading="lazy" />
+          <figcaption>
+            Decentralization diagram: Web 3.0's architecture distributes power across nodes rather than concentrating it in central servers.
+            Image: <a href="https://commons.wikimedia.org/wiki/File:Decentralization_diagram.svg" target="_blank" rel="noopener">Wikimedia Commons</a> (CC BY-SA 3.0)
+          </figcaption>
+        </figure>
+
+        <p>The technical architecture of this system rests on a powerful combination of innovations. At its core, the
+          blockchain provides an immutable, distributed ledger, reliably recording all transactions and ownership
+          details. Smart contracts elevate this foundation by enabling agreements that are self-executing: the code
+          itself enforces predefined rules, eliminating the need for intermediaries. For data storage, decentralized
+          systems like IPFS (InterPlanetary File System) are used to distribute content across a network of nodes,
+          moving away from vulnerable, centralized servers. Finally, cryptocurrency tokens introduce native digital
+          money and robust incentive mechanisms to the ecosystem.</p>
+
+        <p>Web 3.0 also incorporates artificial intelligence and semantic technologies that help machines understand
+          meaning, not just match keywords. When you search "best restaurants near me open now," intelligent systems
+          understand your location, current time, and intent—they don't just scan for those exact words. This semantic
+          understanding promises to make the web more intuitive and personally relevant.</p>
+
+        <p>Decentralized applications (dApps) exemplify this vision. They run on peer-to-peer networks rather than
+          centralized servers, rewarding participants with tokens instead of showing advertisements. NFTs (non-fungible
+          tokens) established verifiable digital ownership of art, collectibles, and virtual items—controversial yet
+          demonstrating blockchain's capability to create scarcity in digital realms. DeFi (Decentralized Finance)
+          offers banking services without banks: lending, borrowing, and trading through algorithmic protocols rather
+          than human intermediaries.</p>
+
+        <p>However, significant challenges temper this utopian vision. Blockchain scalability remains
+          problematic—Ethereum processes roughly 15-30 transactions per second compared to Visa's 65,000. Energy
+          consumption for proof-of-work blockchains sparked environmental concerns, though proof-of-stake alternatives
+          address this. The user experience remains clunky—managing private keys and navigating crypto wallets
+          intimidates mainstream users. Speculative excess dominated early adoption, with get-rich-quick schemes
+          overshadowing legitimate use cases.</p>
+
+        <p>Furthermore, Web 3.0's promise of decentralization has practical limitations. Early adopters hold
+          disproportionate wealth and influence. Operating a full node necessitates technical expertise and resources.
+          Most users connect through centralized gateways, such as MetaMask or Coinbase, which create single points of
+          failure and control. Can totally decentralized systems be widely adopted, or will convenience and performance
+          lead to some degree of centralization?</p>
+
+        <div class="video-explainer">
+          <figure class="media-embed">
+            <div class="video">
+              <iframe
+                title="History of the Internet documentary by ColdFusion providing comprehensive overview of web evolution"
+                width="560" height="315" src="https://www.youtube.com/embed/9hIQjrMHTv4" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>
+            </div>
+            <figcaption class="caption">
+              <strong>Video:</strong> ColdFusion's "History of the Internet" provides an accessible, visually rich
+              exploration of web evolution from ARPANET through Web 3.0, featuring expert interviews and historical
+              footage.
+              <a href="https://youtu.be/9hIQjrMHTv4" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="quiz" aria-labelledby="quiz-title">
+          <h3 id="quiz-title" class="h5">Knowledge Check</h3>
+          <p>Which technological foundation is MOST central to Web 3.0's vision of user ownership and decentralization?
+          </p>
+          <form id="quiz-form">
+            <label><input type="radio" name="q1" value="a" /> Static HTML pages with minimal JavaScript</label><br />
+            <label><input type="radio" name="q1" value="b" /> Centralized social media platforms with algorithmic
+              feeds</label><br />
+            <label><input type="radio" name="q1" value="c" /> Blockchain technology enabling decentralized identity and
+              on-chain asset ownership</label><br />
+            <label><input type="radio" name="q1" value="d" /> Traditional server-client architecture with SQL
+              databases</label>
+            <div class="quiz-actions">
+              <button type="submit">Check Answer</button>
+              <span id="quiz-result" role="status" aria-live="polite"></span>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section id="impact" class="section" aria-labelledby="impact-title">
+        <h2 id="impact-title">Impact and Future — A Converging, Contested Web</h2>
+
+        <p>The Internet's evolution mirrors humanity's complex relationship with technology—simultaneously empowering
+          and exploiting, connecting and dividing, democratizing and concentrating power. Each generation learned from
+          its predecessor: Web 1.0 taught us information sharing; Web 2.0 taught us social sharing; Web 3.0 attempts to
+          teach us ownership and sovereignty. Yet rather than discrete replacements, these iterations coexist and
+          intermingle.</p>
+
+        <p>Today's internet functions as a hybrid. Consider watching a YouTube video (Web 2.0 platform) about blockchain
+          technology (Web 3.0 idea) and reading documentation on static pages (Web 1.0 structure). The convergence of
+          technologies is expected to accelerate, leading to a "Web X.0" internet with augmented reality overlays,
+          ubiquitous ambient computing, AI agents that understand context and intent, and mixed architectures that
+          balance decentralization with performance.</p>
+
+        <div class="pullquote" role="complementary">
+          <blockquote>
+            <p>"The Internet's future won't be determined by technology alone, but by the social, economic, and
+              political choices we make about power, privacy, and participation."</p>
+          </blockquote>
+        </div>
+
+        <p>Critical challenges loom ahead. Digital literacy gaps threaten to create new forms of exclusion—those who
+          understand blockchain, AI, and digital rights versus those who don't. Environmental impact cannot be ignored;
+          data centers consume approximately 1% of global electricity, and blockchain mining exacerbates this.
+          Governance questions intensify: should protocols or communities set rules? How do we balance free speech with
+          harmful content? Who decides what constitutes harmful content?</p>
+
+        <p>The promise of Web 3.0's decentralization is a truly equitable internet, one that avoids merely substituting
+          existing powerful intermediaries with new ones. However, early trends in blockchain adoption raise a serious
+          concern: the concentration of wealth may be worse than the winner-take-all dynamics seen in the Web 2.0 era.
+          It is therefore crucial to critically examine these emerging systems now, before their structures become
+          permanently embedded into the digital infrastructure.</p>
+
+        <p>The web's evolution ultimately reflects human progress and folly. Technology amplifies human capabilities—for
+          good and ill. The Internet can empower marginalized voices or enable surveillance states. It can foster global
+          understanding or accelerate tribal polarization. Understanding this history isn't mere nostalgia; it's vital
+          for ensuring the future web becomes smarter, fairer, safer, and truly global—not just for early adopters in
+          wealthy nations, but for humanity writ large.</p>
+
+        <div class="key-takeaways" role="complementary">
+          <h3 class="h5">Key Takeaways</h3>
+          <ul>
+            <li><strong>Web 1.0 (1991-2004):</strong> Static, read-only pages—information flowed one-way from publishers
+              to consumers</li>
+            <li><strong>Web 2.0 (2004-present):</strong> Dynamic, interactive platforms—users create content but
+              platforms control data</li>
+            <li><strong>Web 3.0 (emerging):</strong> Decentralized, user-owned networks—blockchain enables data
+              sovereignty but faces scalability challenges</li>
+            <li><strong>Critical lesson:</strong> Each era solved problems while creating new ones; technology alone
+              doesn't determine outcomes—human choices about power, access, and governance do</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="references" class="section" aria-labelledby="ref-title">
+        <h2 id="ref-title">References & Attributions</h2>
+
+        <h3 class="h5">Primary Sources</h3>
+        <ul class="refs">
+          <li>ColdFusion. (2023). <em>History of the Internet</em> [Video]. YouTube. <a
+              href="https://youtu.be/9hIQjrMHTv4" target="_blank" rel="noopener">https://youtu.be/9hIQjrMHTv4</a></li>
+          <li>Berners-Lee, T. (1999). <em>Weaving the Web: The Original Design and Ultimate Destiny of the World Wide
+              Web</em>. HarperCollins.</li>
+          <li>O'Reilly, T. (2005). <em>What Is Web 2.0: Design Patterns and Business Models for the Next Generation of
+              Software</em>. O'Reilly Media. <a href="https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html"
+              target="_blank" rel="noopener">https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html</a></li>
+        </ul>
+
+        <h3 class="h5">Technical Resources</h3>
+        <ul class="refs">
+          <li>Simplilearn. (2024). <em>Web 1.0 vs Web 2.0 vs Web 3.0: Understanding the Evolution of the Internet</em>.
+            <a href="https://www.simplilearn.com/what-is-web-1-0-web-2-0-and-web-3-0-with-their-difference-article"
+              target="_blank"
+              rel="noopener">https://www.simplilearn.com/tutorials/blockchain-tutorial/web-1-vs-web-2-vs-web-3</a>
+          </li>
+          <li>GeeksforGeeks. (2024). <em>Evolution of Web: Web 1.0, Web 2.0, Web 3.0</em>. <a
+              href="https://www.geeksforgeeks.org/web-1-0-web-2-0-and-web-3-0-with-their-difference/" target="_blank"
+              rel="noopener">https://www.geeksforgeeks.org/web-1-0-web-2-0-and-web-3-0-with-their-difference/</a></li>
+          <li>Ethereum Foundation. (2024). <em>Introduction to Web3</em>. <a href="https://ethereum.org/en/web3/"
+              target="_blank" rel="noopener">https://ethereum.org/en/web3/</a></li>
+        </ul>
+
+        <h3 class="h5">Statistics & Data</h3>
+        <ul class="refs">
+          <li>International Telecommunication Union. (2024). <em>Measuring digital development: Facts and figures</em>.
+            <a href="https://www.itu.int/" target="_blank" rel="noopener">https://www.itu.int/</a>
+          </li>
+        </ul>
+
+        <p class="fine attribution-note"><strong>Content Note:</strong> This article synthesizes information from
+          multiple sources listed above. Background research utilized educational resources including Simplilearn's web
+          evolution tutorials and GeeksforGeeks technical explanations. All specific claims are attributed to their
+          sources.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="blog-footer" role="contentinfo">
+    <div class="wrap small">
+      <p><strong>© 2025 Farhan Adib | Digital Insights & Engineering</strong></p>
+      <p>Built with semantic HTML5, CSS custom properties, and jQuery | Professional web development & design</p>
+      <p><a href="#top" class="back-top">↑ Back to Top</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
